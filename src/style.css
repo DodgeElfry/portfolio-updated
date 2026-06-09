@@ -1,0 +1,6 @@
+@import url(./assets/css/reset.css);
+@import url(./assets/css/variables.css);
+
+:root {
+    font-family: var(--police-principale);
+}
