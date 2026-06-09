@@ -5,16 +5,16 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <nav>
         <img src="" alt="" class="logo" id="nav-logo">
         <ul class="nav-links">
-            <li class="nav-link">Accueil</li>
-            <li class="nav-link">Projets</li>
-            <li class="nav-link">Blog</li>
+            <li><a href="#" class="nav-link">Accueil</a></li>
+            <li><a href="#" class="nav-link">Projets</a></li>
+            <li><a href="#" class="nav-link" target="_blank">Blog</a></li>
         </ul>
         <div>
             <div>
                 <img src="" alt="Languages" class="nav-icons">
                 <img src="" alt="Theme" class="nav-icons">
-                <img src="" alt="Github" class="nav-icons">
-                <img src="" alt="LinkedIn" class="nav-icons">
+                <a href="#" target="_blank"><img src="" alt="Github" class="nav-icons"></a>
+                <a href="#" target="_blank"><img src="" alt="LinkedIn" class="nav-icons"></a>
             </div>
             <button class="cv-button">
                 <img class="cv-download-icon" src="" alt="">
@@ -83,7 +83,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <h2 class="section-title">STACK</h2>
             <p class="intro-section">Un arsenal technologique moderne pour répondre à tous vos besoins</p>
             <div class="stack-container">
-                <div class="stack-card">
+                <article class="stack-card">
                     <div class="container-icon">
                         <img class="domain-icon" src="" alt="Frontend">  
                     </div>
@@ -94,8 +94,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                         <li class="technology">Tailwind</li>
                         <li class="technology">TypeScript</li>
                     </ul>
-                </div>
-                <div class="stack-card">
+                </article>
+                <article class="stack-card">
                     <div class="container-icon">
                         <img class="domain-icon" src="" alt="Backend">  
                     </div>
@@ -106,8 +106,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                         <li class="technology">Fastify</li>
                         <li class="technology">PostgreSQL</li>
                     </ul>
-                </div>
-                <div class="stack-card">
+                </article>
+                <article class="stack-card">
                     <div class="container-icon">
                         <img class="domain-icon" src="" alt="Autre">  
                     </div>
@@ -118,7 +118,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                         <li class="technology">Figma</li>
                         <li class="technology">Adobe CC</li>
                     </ul>
-                </div>
+                </article>
             </div>
         </section>
         <section id="realisation">
@@ -128,7 +128,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 <article class="project-card">
                     <div>
                         <img src="" alt="" class="project-picture">
-                        <p class="status">En cours</p>
+                        <span class="status">En cours</span>
                     </div>
                     <h3 class="project-tilte">DUDU</h3>
                     <p class="project-description">Plateforme d'inscription det gestion d'événements</p>
@@ -141,10 +141,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                         <li class="badge-technology">PostgreSQL</li>
                     </ul>
                 </article>
-                <div class="project-card">
+                <article class="project-card">
                     <div>
                         <img src="" alt="" class="project-picture">
-                        <p class="status">En cours</p>
+                        <span class="status">En cours</span>
                     </div>
                     <h3 class="project-tilte">BISSI</h3>
                     <p class="project-description">Application de gestion associative et syndicale</p>
@@ -156,11 +156,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                         <li class="badge-technology">ExpressJS</li>
                         <li class="badge-technology">PostgreSQL</li>
                     </ul>
-                </div>
-                <div class="project-card">
+                </article>
+                <article class="project-card">
                     <div>
                         <img src="" alt="" class="project-picture">
-                        <p class="status">En cours</p>
+                        <span class="status">En cours</span>
                     </div>
                     <h3 class="project-tilte">OYERI</h3>
                     <p class="project-description">Jeux éducatif</p>
@@ -172,11 +172,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                         <li class="badge-technology">Fastify</li>
                         <li class="badge-technology">PostgreSQL</li>
                     </ul>
-                </div>
-                <div class="project-card">
+                </article>
+                <article class="project-card">
                     <div>
                         <img src="" alt="" class="project-picture">
-                        <p class="status">En cours</p>
+                        <span class="status">En cours</span>
                     </div>
                     <h3 class="project-tilte">WURA</h3>
                     <p class="project-description">Application marketplace mobile</p>
@@ -188,11 +188,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                         <li class="badge-technology">Fastify</li>
                         <li class="badge-technology">SQLite</li>
                     </ul>
-                </div>
-                <div class="project-card">
+                </article>
+                <article class="project-card">
                     <div>
                         <img src="" alt="" class="project-picture">
-                        <p class="status">En cours</p>
+                        <span class="status">En cours</span>
                     </div>
                     <h3 class="project-tilte">G-RH+</h3>
                     <p class="project-description">Logiciel de GRH</p>
@@ -204,11 +204,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                         <li class="badge-technology">Hono</li>
                         <li class="badge-technology">PostgreSQL</li>
                     </ul>
-                </div>
-                <div class="project-card">
+                </article>
+                <article class="project-card">
                     <div>
                         <img src="" alt="" class="project-picture">
-                        <p class="status">En cours</p>
+                        <span class="status">En cours</span>
                     </div>
                     <h3 class="project-tilte">G-Compta</h3>
                     <p class="project-description">Application de gestion comptable</p>
@@ -220,7 +220,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                         <li class="badge-technology">Hono</li>
                         <li class="badge-technology">PostgreSQL</li>
                     </ul>
-                </div>
+                </article>
             </div>
         </section>
         <section id="methodology">
