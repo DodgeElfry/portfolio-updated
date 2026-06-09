@@ -3,7 +3,7 @@ import './style.css'
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <header>
     <nav>
-        <img src="" alt="" class="logo" id="nav-logo">
+        <img src="/public/logo-style-3.svg" alt="" class="logo" id="nav-logo">
         <ul class="nav-links">
             <li><a href="#" class="nav-link">Accueil</a></li>
             <li><a href="#" class="nav-link">Projets</a></li>
@@ -11,13 +11,13 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         </ul>
         <div>
             <div>
-                <img src="" alt="Languages" class="nav-icons">
-                <img src="" alt="Theme" class="nav-icons">
-                <a href="#" target="_blank"><img src="" alt="Github" class="nav-icons"></a>
-                <a href="#" target="_blank"><img src="" alt="LinkedIn" class="nav-icons"></a>
+                <img src="/public/global-line.svg" alt="Languages" class="nav-icons">
+                <img src="/public/contrast-fill.svg" alt="Theme" class="nav-icons">
+                <a href="https://github.com/DodgeElfry" target="_blank"><img src="/public/github-line.svg" alt="Github" class="nav-icons"></a>
+                <a href="https://www.linkedin.com/in/dodge-nguia/" target="_blank"><img src="" alt="LinkedIn" class="nav-icons"></a>
             </div>
             <button class="cv-button">
-                <img class="cv-download-icon" src="" alt="">
+                <img class="cv-download-icon" src="/public/download-2-line.svg" alt="Télécharger">
                 <p class="text-cv-button">CV</p>
             </button>
         </div>
@@ -38,16 +38,22 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </aside>
     <div class="main-container">
         <section id="presentation">
-            <div id="">
+            <div id="presentation-container">
                 <p class="status">Disponible pour de nouveaux projets</p>
                 <h1 class="big-title">L'innovation par le <strong>Web / Mobile</strong></h1>
                 <p class="text-presentation">Je suis Dodge Elfry, développeur spécialisé dans la création d'interfaces numériques modernes, performantes et centrées sur l'humain.</p>
                 <div>
-                    <a href="#" class="action-button action-button-projects">Voir mes projets</a>
-                    <a href="#" class="action-button action-button-download">Télécharger CV</a>
+                    <a href="/src/pages/projects.html" class="action-button action-button-projects">
+                        <p>Voir mes projets</p>
+                        <img src="/public/arrow-right-line.svg" alt="Flèche direction" class="action-button-icon">
+                    </a>
+                    <a href="#" class="action-button action-button-download">
+                        <img src="/public/download-2-line.svg" alt="Télécharger" class="action-button-icon">
+                        <p>Télécharger CV</p>
+                    </a>
                 </div>
             </div>
-            <img src="" alt="Photo de profil">
+            <img src="/src/assets/img/dodge.jpg" alt="Photo de profil">
         </section>
         <section id="services">
             <h2 class="section-title">SERVICES</h2>
@@ -85,7 +91,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <div class="stack-container">
                 <article class="stack-card">
                     <div class="container-icon">
-                        <img class="domain-icon" src="" alt="Frontend">  
+                        <img class="domain-icon" src="/public/code-s-slash-line.svg" alt="Frontend">  
                     </div>
                     <h3>Frontend</h3>
                     <ul class="technologies">
@@ -97,7 +103,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 </article>
                 <article class="stack-card">
                     <div class="container-icon">
-                        <img class="domain-icon" src="" alt="Backend">  
+                        <img class="domain-icon" src="/public/stack-line.svg" alt="Backend">  
                     </div>
                     <h3>Backend</h3>
                     <ul class="technologies">
@@ -109,7 +115,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 </article>
                 <article class="stack-card">
                     <div class="container-icon">
-                        <img class="domain-icon" src="" alt="Autre">  
+                        <img class="domain-icon" src="/public/stacked-chart-line.svg" alt="Autre">  
                     </div>
                     <h3>Autres</h3>
                     <ul class="technologies">
@@ -127,7 +133,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <div class="projects-container">
                 <article class="project-card">
                     <div>
-                        <img src="" alt="" class="project-picture">
+                        <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
                         <span class="status">En cours</span>
                     </div>
                     <h3 class="project-tilte">DUDU</h3>
@@ -143,7 +149,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 </article>
                 <article class="project-card">
                     <div>
-                        <img src="" alt="" class="project-picture">
+                        <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
                         <span class="status">En cours</span>
                     </div>
                     <h3 class="project-tilte">BISSI</h3>
@@ -159,7 +165,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 </article>
                 <article class="project-card">
                     <div>
-                        <img src="" alt="" class="project-picture">
+                        <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
                         <span class="status">En cours</span>
                     </div>
                     <h3 class="project-tilte">OYERI</h3>
@@ -175,7 +181,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 </article>
                 <article class="project-card">
                     <div>
-                        <img src="" alt="" class="project-picture">
+                        <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
                         <span class="status">En cours</span>
                     </div>
                     <h3 class="project-tilte">WURA</h3>
@@ -191,7 +197,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 </article>
                 <article class="project-card">
                     <div>
-                        <img src="" alt="" class="project-picture">
+                        <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
                         <span class="status">En cours</span>
                     </div>
                     <h3 class="project-tilte">G-RH+</h3>
@@ -207,7 +213,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 </article>
                 <article class="project-card">
                     <div>
-                        <img src="" alt="" class="project-picture">
+                        <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
                         <span class="status">En cours</span>
                     </div>
                     <h3 class="project-tilte">G-Compta</h3>
@@ -228,17 +234,17 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <p class="intro-section">Mon approche ne se limite pas à l'écriture de code. Je m'immerge dans vos problématiques métiers pour concevoir des solutions durables. Passionné par l'écosystème JavaScript, j'accorde une importance capitale à l'accécibilité et aux performances</p>
             <div class="methodology-container">
                 <div class="methodology-card">
-                    <img src="" alt="Innovation" class="methodologie-icon">
+                    <img src="/public/lightbulb-ai-line.svg" alt="Innovation" class="methodologie-icon">
                     <h3 class="methodology-title">Innovation</h3>
                     <p class="methodology-text">En quête permanente des dernières technologies pour créer des solutions modernes et efficaces.</p>
                 </div>
                 <div class="methodology-card">
-                    <img src="" alt="Qualité" class="methodologie-icon">
+                    <img src="/public/file-code-line.svg" alt="Qualité" class="methodologie-icon">
                     <h3 class="methodology-title">Code qualitatif</h3>
                     <p class="methodology-text">Le clean code et la clean architechture sont au cœur de mon approche de développement.</p>
                 </div>
                 <div class="methodology-card">
-                    <img src="" alt="Collaboration" class="methodologie-icon">
+                    <img src="/public/p2p-line.svg" alt="Collaboration" class="methodologie-icon">
                     <h3 class="methodology-title">Collaboration</h3>
                     <p class="methodology-text">Une communication franche et transparente avec mes clients pour atteindre ensemble les meilleurs résultats.</p>
                 </div>
@@ -252,7 +258,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 <div class="contact-info">
                     <p class="text-contact">Que vous ayez une idée précise ou juste une ébauche, discutons-en ensemble pour définir la meilleure stratégie pour la concrétiser.</p>
                     <div class="delay">
-                        <img src="" alt="Delay" class="delay-icon">
+                        <img src="/public/timer-2-line.svg" alt="Delay" class="delay-icon">
                         <p class="text-delay">Réponse sous 24h ouvrées</p>
                     </div>
                 </div>
@@ -275,7 +281,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                     </div>
                     <button type="submit" class="submit-button">
                         <p class="text-button-submit">Envoyer le message</p>
-                        <img src="" alt="Envoyer" class="icon-button-submit">
+                        <img src="/public/send-plane-fill.svg" alt="Envoyer" class="icon-button-submit">
                     </button>
                 </div>
             </div>
@@ -285,7 +291,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <footer>
     <div class="footer-top">
         <div class="logo-area">
-            <img src="" alt="Logo" class="logo footer-logo">
+            <img src="/public/logo-style-2.svg" alt="Logo" class="logo footer-logo">
             <p class="slogan"></p>
         </div>
         <div class="footer-links">
@@ -302,6 +308,6 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <a href="#" target="_blank">LinkedIn</a>
         </div>
     </div>
-    <p class="copiright">2026 · Dodge Elfry · Tous droits réservés</p>
+    <p class="copiright">©2026 · Dodge Elfry · Tous droits réservés</p>
 </footer>
 `
