@@ -292,14 +292,14 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <h4 class="navigation-links">Navigation</h4>
             <a href="/index.html">Accueil</a>
             <a href="#">Projets</a>
-            <a href="#">Blog</a>
+            <a href="#" target="_blank">Blog</a>
         </div>
         <div class="footer-links">
             <h4 class="ressources-links">Ressources</h4>
             <a href="#">Télécharger le CV</a>
             <a href="#">Télécharger le portfolio</a>
-            <a href="#">Github</a>
-            <a href="#">LinkedIn</a>
+            <a href="#" target="_blank">Github</a>
+            <a href="#" target="_blank">LinkedIn</a>
         </div>
     </div>
     <p class="copiright">2026 · Dodge Elfry · Tous droits réservés</p>
