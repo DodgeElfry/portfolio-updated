@@ -33,8 +33,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <a href="#realisation" class="aside-button">Réalisations</a>
         <a href="#methodology" class="aside-button">Méthodologie</a>
         <a href="#contact" class="aside-button">Contact</a>
-        <a href="#" class="aside-button">
-            <img src="" alt="Télécharger" class="portfolio-download-icon">
+        <a href="#" class="aside-button" id="download-portfolio">
+            <img src="/public/download-2-line.svg" alt="Télécharger" class="portfolio-download-icon">
             <p class="text-portfolio-button">Portfolio</p>
         </a>
     </aside>
