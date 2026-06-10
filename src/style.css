@@ -561,3 +561,60 @@ footer {
     align-self: center;
 }
 
+/*==================================
+            RESPONSIVE
+====================================*/
+
+@media (width < 834px) {
+    aside {
+        display: none;
+    }
+    .main-container {
+        margin: 0;
+        width: 100%;
+    }
+    
+}
+
+@media (width < 800px) {
+    .picture-container {
+        display: none;
+    }
+    .services-container, .stack-container, .projects-container, .methodology-container, .contact-container, #presentation {
+        grid-template-columns: 1fr;
+    }
+    .status, .big-title, .text-presentation, .button-container {
+        align-self: center;
+        text-align: center;
+    }
+    .contact-card {
+        max-width: 100%;
+    }
+    .contact-container {
+        justify-items: center;
+    }
+    .contact-info {
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .delay {
+        align-self: center;
+    }
+}
+
+@media (width > 480px) and (width < 800px) {
+    .services-card, .stack-card, .project-card, .methodology-card, .contact-card {
+        width: 440px;
+        margin: auto;
+    }
+}
+
+@media (width <= 480px) {
+    .button-container {
+        flex-direction: column;
+    }
+    .action-button {
+        width: fit-content;
+    }
+}
