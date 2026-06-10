@@ -3,18 +3,20 @@ import './style.css'
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <header>
     <nav>
-        <img src="/public/logo-style-3.svg" alt="" class="logo" id="nav-logo">
+        <a href="/index.html">
+            <img src="/public/logo-style-3.svg" alt="Logo" class="logo" id="nav-logo">
+        </a>
         <ul class="nav-links">
             <li><a href="#" class="nav-link">Accueil</a></li>
             <li><a href="#" class="nav-link">Projets</a></li>
             <li><a href="#" class="nav-link" target="_blank">Blog</a></li>
         </ul>
-        <div>
-            <div>
+        <div class="nav-actions">
+            <div class="nav-social-buttons">
                 <img src="/public/global-line.svg" alt="Languages" class="nav-icons">
                 <img src="/public/contrast-fill.svg" alt="Theme" class="nav-icons">
                 <a href="https://github.com/DodgeElfry" target="_blank"><img src="/public/github-line.svg" alt="Github" class="nav-icons"></a>
-                <a href="https://www.linkedin.com/in/dodge-nguia/" target="_blank"><img src="" alt="LinkedIn" class="nav-icons"></a>
+                <a href="https://www.linkedin.com/in/dodge-nguia/" target="_blank"><img src="/public/linkedin-fill.svg" alt="LinkedIn" class="nav-icons"></a>
             </div>
             <button class="cv-button">
                 <img class="cv-download-icon" src="/public/download-2-line.svg" alt="Télécharger">
