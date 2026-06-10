@@ -44,18 +44,20 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 <p class="status">Disponible pour de nouveaux projets</p>
                 <h1 class="big-title">L'innovation par le <strong>Web / Mobile</strong></h1>
                 <p class="text-presentation">Je suis Dodge Elfry, développeur spécialisé dans la création d'interfaces numériques modernes, performantes et centrées sur l'humain.</p>
-                <div>
-                    <a href="/src/pages/projects.html" class="action-button action-button-projects">
+                <div class="button-container">
+                    <a href="/src/pages/projects.html" class="button-blue action-button action-button-projects">
                         <p>Voir mes projets</p>
-                        <img src="/public/arrow-right-line.svg" alt="Flèche direction" class="action-button-icon">
+                        <img src="/public/arrow-right-line-white.svg" alt="Flèche direction" class="action-button-icon">
                     </a>
-                    <a href="#" class="action-button action-button-download">
-                        <img src="/public/download-2-line.svg" alt="Télécharger" class="action-button-icon">
+                    <a href="#" class="button-white action-button action-button-download">
+                        <img src="/public/download-2-line-black.svg" alt="Télécharger" class="action-button-icon">
                         <p>Télécharger CV</p>
                     </a>
                 </div>
             </div>
-            <img src="/src/assets/img/dodge.jpg" alt="Photo de profil">
+            <div class="picture-container">
+                <img src="/src/assets/img/dodge.jpg" alt="Photo de profil" class="profile-picture">
+            </div>
         </section>
         <section id="services">
             <h2 class="section-title">SERVICES</h2>

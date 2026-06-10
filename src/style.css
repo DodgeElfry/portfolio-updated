@@ -135,6 +135,120 @@ aside {
     margin-left: calc(20px + 160px);
 }
 
+section {
+    padding: 20px 0px;
+}
+
+.section-title, .intro-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/*-----------------------------------
+            Section présentation
+------------------------------------*/
+
+#presentation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+#presentation-container {
+    min-width: 440px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.status {
+    width: fit-content;
+    padding: 3px 40px;
+    display: flex;
+    font-weight: bold;
+    color: #2563eb;
+    border: 2px solid #2563eb;
+    border-radius: 20px;
+}
+
+strong {
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.big-title {
+    font-size: clamp(2.5em, 4em, 4em);
+}
+
+.text-presentation {
+    max-width: 480px;
+    text-align: justify;
+    line-height: 1.7em;
+    color: gray;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+.action-button {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.action-button-icon {
+    display: flex;
+    height: 1.5em;
+}
+
+.button-blue {
+    background-color: #2563eb;
+    color: #fff;
+}
+
+.button-white {
+    border: 2px solid gainsboro;
+}
+
+.picture-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture {
+    display: flex;
+    align-self: center;
+    height: 22em;
+    aspect-ratio: 1/1;
+    border: 4px solid gainsboro;
+    border-radius: 20px;
+}
+
+/*-----------------------------------
+            Section services
+------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 img {
     height: 2.5em;
 }
