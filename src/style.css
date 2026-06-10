@@ -133,7 +133,7 @@ aside {
 ------------------------------------*/
 
 .main-container {
-    width: calc(100vw - 120px);
+    width: calc(100vw - 160px);
     margin-left: calc(20px + 160px);
 }
 
@@ -164,7 +164,6 @@ section {
 }
 
 #presentation-container {
-    min-width: 440px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -203,6 +202,7 @@ strong {
 }
 
 .action-button {
+    width: fit-content;
     padding: 10px 20px;
     display: flex;
     align-items: center;
@@ -516,5 +516,48 @@ textarea {
 .icon-button-submit {
     display: flex;
     height: 1.5em;
+}
+
+/*==================================
+            FOOTER
+====================================*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #091b3c;
+    color: #fff;
+    position: sticky;
+    z-index: 2;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.logo-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logo {
+    height: 2em;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.copiright {
+    display: flex;
+    align-self: center;
 }
 
