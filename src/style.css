@@ -145,6 +145,10 @@ section {
     margin-bottom: 20px;
 }
 
+.intro-section {
+    color: gray;
+}
+
 /*-----------------------------------
             Section présentation
 ------------------------------------*/
@@ -258,6 +262,67 @@ strong {
 .services-list {
     line-height: 2em;
 }
+
+/*-----------------------------------
+            Section stack
+------------------------------------*/
+
+.stack-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.stack-card {
+    padding: 20px 20px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-icon {
+    width: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    aspect-ratio: 1/1;
+    background-color: #a9c2e1;
+    border-radius: 10px;
+}
+
+.domain-icon {
+    display: flex;
+    height: 2em;
+}
+
+.technologies {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.technology {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+/*-----------------------------------
+            Section stack
+------------------------------------*/
+
+
+
+
+
+
+
 
 
 
