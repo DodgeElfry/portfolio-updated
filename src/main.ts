@@ -285,9 +285,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                     </div>
                     <div class="input-area">
                     <label for="message">Message :</label>
-                    <input type="text" value="" id="message" placeholder="ex : Parlez-moi de votre projet">
+                    <textarea value="" rows="4" cols="50" id="message" wrap="soft" placeholder="ex : Parlez-moi de votre projet"></textarea>
                     </div>
-                    <button type="submit" class="submit-button">
+                    <button type="submit" class="submit-button button-white">
                         <p class="text-button-submit">Envoyer le message</p>
                         <img src="/public/send-plane-fill.svg" alt="Envoyer" class="icon-button-submit">
                     </button>
@@ -300,7 +300,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <div class="footer-top">
         <div class="logo-area">
             <img src="/public/logo-style-2.svg" alt="Logo" class="logo footer-logo">
-            <p class="slogan"></p>
+            <p class="slogan">Disponible pour vos projets</p>
         </div>
         <div class="footer-links">
             <h4 class="navigation-links">Navigation</h4>
