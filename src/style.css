@@ -199,7 +199,7 @@ strong {
     display: flex;
     align-items: center;
     gap: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .action-button-icon {
@@ -234,6 +234,32 @@ strong {
 /*-----------------------------------
             Section services
 ------------------------------------*/
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.services-card {
+    padding: 20px 20px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.services-domain {
+    display: flex;
+    align-self: center;
+}
+
+.services-list {
+    line-height: 2em;
+}
+
+
 
 
 

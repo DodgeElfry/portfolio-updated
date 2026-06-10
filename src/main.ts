@@ -43,7 +43,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <div id="presentation-container">
                 <p class="status">Disponible pour de nouveaux projets</p>
                 <h1 class="big-title">L'innovation par le <strong>Web / Mobile</strong></h1>
-                <p class="text-presentation">Je suis Dodge Elfry, développeur spécialisé dans la création d'interfaces numériques modernes, performantes et centrées sur l'humain.</p>
+                <p class="text-presentation">Je suis Dodge Elfry, développeur fullstack spécialisé dans la création d'interfaces numériques modernes, performantes et centrées sur l'humain.</p>
                 <div class="button-container">
                     <a href="/src/pages/projects.html" class="button-blue action-button action-button-projects">
                         <p>Voir mes projets</p>
@@ -64,27 +64,27 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <p class="intro-section">Mon offre de services pour répondre à vos besoins</p>
             <div class="services-container">
                 <div class="services-card">
-                    <span class="services-domain">Design</span>
+                    <h3 class="services-domain">Design</h3>
                     <ul class="services-list">
-                        <li class="one-sevice">Maquettage de site web et application</li>
-                        <li class="one-sevice">Création de charte graphique</li>
-                        <li class="one-sevice">Création de prototypes interactifs</li>
+                        <li class="one-sevice">✔️ Maquettage de site web et application</li>
+                        <li class="one-sevice">✔️ Création de charte graphique</li>
+                        <li class="one-sevice">✔️ Création de prototypes interactifs</li>
                     </ul>
                 </div>
                 <div class="services-card">
-                    <span class="services-domain">Developpement web</span>
+                    <h3 class="services-domain">Developpement web</h3>
                     <ul class="services-list">
-                        <li class="one-sevice">Intégration</li>
-                        <li class="one-sevice">Déploiement</li>
-                        <li class="one-sevice">Maintenance</li>
+                        <li class="one-sevice">✔️ Intégration</li>
+                        <li class="one-sevice">✔️ Déploiement</li>
+                        <li class="one-sevice">✔️ Maintenance</li>
                     </ul>
                 </div>
                 <div class="services-card">
-                    <span class="services-domain">Autres services</span>
+                    <h3 class="services-domain">Autres services</h3>
                     <ul class="services-list">
-                        <li class="one-sevice">Conseil</li>
-                        <li class="one-sevice">Fourniture d'équipements</li>
-                        <li class="one-sevice">Fourniture et configuration de logiciels</li>
+                        <li class="one-sevice">✔️ Conseil</li>
+                        <li class="one-sevice">✔️ Fourniture d'équipements</li>
+                        <li class="one-sevice">✔️ Fourniture et configuration de logiciels</li>
                     </ul>
                 </div>
             </div>
