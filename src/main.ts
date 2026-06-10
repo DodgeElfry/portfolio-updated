@@ -136,9 +136,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <p class="intro-section">Une sélection de mes réalisations les plus marquantes, alliant complexité technique et élégance visuelle</p>
             <div class="projects-container">
                 <article class="project-card">
-                    <div>
+                    <div class="banner-project">
                         <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
-                        <span class="status">En cours</span>
+                        <span class="project-status">En cours</span>
                     </div>
                     <h3 class="project-tilte">DUDU</h3>
                     <p class="project-description">Plateforme d'inscription det gestion d'événements</p>
@@ -152,9 +152,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                     </ul>
                 </article>
                 <article class="project-card">
-                    <div>
+                    <div class="banner-project">
                         <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
-                        <span class="status">En cours</span>
+                        <span class="project-status">En cours</span>
                     </div>
                     <h3 class="project-tilte">BISSI</h3>
                     <p class="project-description">Application de gestion associative et syndicale</p>
@@ -168,9 +168,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                     </ul>
                 </article>
                 <article class="project-card">
-                    <div>
+                    <div class="banner-project">
                         <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
-                        <span class="status">En cours</span>
+                        <span class="project-status">En cours</span>
                     </div>
                     <h3 class="project-tilte">OYERI</h3>
                     <p class="project-description">Jeux éducatif</p>
@@ -184,9 +184,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                     </ul>
                 </article>
                 <article class="project-card">
-                    <div>
+                    <div class="banner-project">
                         <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
-                        <span class="status">En cours</span>
+                        <span class="project-status">En cours</span>
                     </div>
                     <h3 class="project-tilte">WURA</h3>
                     <p class="project-description">Application marketplace mobile</p>
@@ -200,9 +200,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                     </ul>
                 </article>
                 <article class="project-card">
-                    <div>
+                    <div class="banner-project">
                         <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
-                        <span class="status">En cours</span>
+                        <span class="project-status">En cours</span>
                     </div>
                     <h3 class="project-tilte">G-RH+</h3>
                     <p class="project-description">Logiciel de GRH</p>
@@ -216,9 +216,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                     </ul>
                 </article>
                 <article class="project-card">
-                    <div>
+                    <div class="banner-project">
                         <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
-                        <span class="status">En cours</span>
+                        <span class="project-status">En cours</span>
                     </div>
                     <h3 class="project-tilte">G-Compta</h3>
                     <p class="project-description">Application de gestion comptable</p>
@@ -232,6 +232,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                     </ul>
                 </article>
             </div>
+            <a href="/src/pages/projects.html" class="wiew-more">
+                        <p>Voir plus de projets</p>
+                        <img src="/public/arrow-right-s-line.svg" alt="Flèche direction" class="view-more-icon">
+                    </a>
         </section>
         <section id="methodology">
             <h2 class="section-title">METHODOLOGIE</h2>

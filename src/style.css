@@ -22,6 +22,7 @@ header {
     border-bottom: 1px solid gainsboro;
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 
 nav {
@@ -301,6 +302,7 @@ strong {
 .technologies {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
 }
@@ -314,12 +316,78 @@ strong {
 }
 
 /*-----------------------------------
-            Section stack
+            Section réalisations
 ------------------------------------*/
 
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
 
+.project-card {
+    padding: 20px 0px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
 
+.project-picture {
+    width: 100%;
+    height: auto;
+}
 
+.banner-project {
+    border-bottom: 1px solid gainsboro;
+}
+
+.project-status {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.project-tilte, .project-description, .project-technologies {
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.project-technologies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.badge-technology {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+.wiew-more {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.view-more-icon {
+    height: 1.5em;
+}
 
 
 
