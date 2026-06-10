@@ -147,6 +147,7 @@ section {
 }
 
 .intro-section {
+    text-align: center;
     color: gray;
 }
 
@@ -258,6 +259,7 @@ strong {
 .services-domain {
     display: flex;
     align-self: center;
+    color: #091b3c;
 }
 
 .services-list {
@@ -297,6 +299,10 @@ strong {
 .domain-icon {
     display: flex;
     height: 2em;
+}
+
+.domain-name {
+    color: #091b3c;
 }
 
 .technologies {
@@ -360,6 +366,10 @@ strong {
     text-align: center;
 }
 
+.project-tilte {
+    color: #091b3c;
+}
+
 .project-technologies {
     display: flex;
     align-items: center;
@@ -381,6 +391,7 @@ strong {
     display: flex;
     align-items: center;
     justify-self: flex-end;
+    gap: 5px;
     color: #2563eb;
     font-weight: bold;
 }
@@ -389,10 +400,36 @@ strong {
     height: 1.5em;
 }
 
+/*-----------------------------------
+            Section méthodologie
+------------------------------------*/
 
+.methodology-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
 
+.methodology-card {
+    padding: 20px 20px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
 
+.methodologie-icon {
+    display: flex;
+    height: 2.5em;
+}
 
+.methodology-title {
+    color: #091b3c;
+}
 
 
 

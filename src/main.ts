@@ -97,7 +97,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                     <div class="container-icon">
                         <img class="domain-icon" src="/public/code-s-slash-line.svg" alt="Frontend">  
                     </div>
-                    <h3>Frontend</h3>
+                    <h3 class="domain-name">Frontend</h3>
                     <ul class="technologies">
                         <li class="technology">HTML</li>
                         <li class="technology">CSS</li>
@@ -109,7 +109,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                     <div class="container-icon">
                         <img class="domain-icon" src="/public/stack-line.svg" alt="Backend">  
                     </div>
-                    <h3>Backend</h3>
+                    <h3 class="domain-name">Backend</h3>
                     <ul class="technologies">
                         <li class="technology">NodeJS</li>
                         <li class="technology">ExpressJS</li>
@@ -121,7 +121,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                     <div class="container-icon">
                         <img class="domain-icon" src="/public/stacked-chart-line.svg" alt="Autre">  
                     </div>
-                    <h3>Autres</h3>
+                    <h3 class="domain-name">Autres</h3>
                     <ul class="technologies">
                         <li class="technology">Linux</li>
                         <li class="technology">Github</li>
