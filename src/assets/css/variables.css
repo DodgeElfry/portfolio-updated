@@ -1,139 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Betania+Patmos+In&family=Courgette&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
-/* ------------------------------------------------------------
-   THÈME CLAIR  (data-theme="light")
-   Fond blanc, texte foncé, accent bleu vif.
-   ------------------------------------------------------------ */
-[data-theme="light"] {
-
-  /* --- Couleurs de surface --- */
-  --couleur-fond-page          : #ffffff;
-  --couleur-fond-section-alt   : #f4f6fb;   /* sections à fond légèrement grisé */
-  --couleur-fond-carte         : #ffffff;
-  --couleur-fond-nav           : rgba(255, 255, 255, 0.92);
-  --couleur-fond-dropdown      : #ffffff;
-  --couleur-fond-bouton-icone  : transparent;
-  --couleur-fond-bouton-icone-hover : #f0f2f8;
-
-  /* --- Couleurs de texte --- */
-  --couleur-texte-principal    : #0d0f14;
-  --couleur-texte-secondaire   : #5a6278;
-  --couleur-texte-lien-nav     : #3d4460;
-  --couleur-texte-lien-nav-hover : #0d0f14;
-  --couleur-texte-badge        : #ffffff;
-  --couleur-texte-tooltip      : #ffffff;
-
-  /* --- Couleur d'accent (bleu de la marque) --- */
-  --couleur-accent-principal   : #2563eb;
-  --couleur-accent-hover       : #1d4ed8;
-  --couleur-accent-doux        : #dbeafe;   /* fond du badge CV, tags, etc. */
-
-  /* --- Bordures --- */
-  --couleur-bordure-carte      : #e8ebf4;
-  --couleur-bordure-nav        : rgba(0, 0, 0, 0.07);
-  --couleur-bordure-dropdown   : #e8ebf4;
-  --couleur-bordure-bouton-icone : transparent;
-  --couleur-bordure-bouton-icone-hover : #dce1ef;
-
-  /* --- Ombres --- */
-  --ombre-nav                  : 0 2px 16px rgba(0, 0, 0, 0.06);
-  --ombre-dropdown             : 0 8px 32px rgba(0, 0, 0, 0.12);
-  --ombre-tooltip              : 0 4px 12px rgba(0, 0, 0, 0.15);
-
-  /* --- Icônes --- */
-  --couleur-icone              : #4a5270;
-  --couleur-icone-hover        : #2563eb;
-  --couleur-icone-actif        : #2563eb;
-
-  /* --- Tooltip (nom du thème au survol) --- */
-  --couleur-fond-tooltip       : #0d0f14;
-  --couleur-texte-tooltip      : #ffffff;
-
-  /* --- Éléments actifs dans le dropdown --- */
-  --couleur-fond-option-active : #eff3ff;
-  --couleur-texte-option-active: #2563eb;
-  --couleur-fond-option-hover  : #f4f6fb;
-}
-
-
-/* ------------------------------------------------------------
-   THÈME SOMBRE  (data-theme="dark")
-   Fond très sombre, texte clair, même accent bleu.
-   ------------------------------------------------------------ */
-[data-theme="dark"] {
-
-  /* --- Couleurs de surface --- */
-  --couleur-fond-page          : #0d0f14;
-  --couleur-fond-section-alt   : #131620;
-  --couleur-fond-carte         : #161922;
-  --couleur-fond-nav           : rgba(13, 15, 20, 0.92);
-  --couleur-fond-dropdown      : #1c1f2e;
-  --couleur-fond-bouton-icone  : transparent;
-  --couleur-fond-bouton-icone-hover : #1e2235;
-
-  /* --- Couleurs de texte --- */
-  --couleur-texte-principal    : #eef0f8;
-  --couleur-texte-secondaire   : #8891b0;
-  --couleur-texte-lien-nav     : #9aa3c2;
-  --couleur-texte-lien-nav-hover : #eef0f8;
-  --couleur-texte-badge        : #ffffff;
-
-  /* --- Couleur d'accent --- */
-  --couleur-accent-principal   : #3b82f6;
-  --couleur-accent-hover       : #60a5fa;
-  --couleur-accent-doux        : #1e3a6e;
-
-  /* --- Bordures --- */
-  --couleur-bordure-carte      : #252a3d;
-  --couleur-bordure-nav        : rgba(255, 255, 255, 0.06);
-  --couleur-bordure-dropdown   : #252a3d;
-  --couleur-bordure-bouton-icone : transparent;
-  --couleur-bordure-bouton-icone-hover : #2d3352;
-
-  /* --- Ombres --- */
-  --ombre-nav                  : 0 2px 20px rgba(0, 0, 0, 0.4);
-  --ombre-dropdown             : 0 8px 32px rgba(0, 0, 0, 0.5);
-  --ombre-tooltip              : 0 4px 12px rgba(0, 0, 0, 0.4);
-
-  /* --- Icônes --- */
-  --couleur-icone              : #8891b0;
-  --couleur-icone-hover        : #3b82f6;
-  --couleur-icone-actif        : #3b82f6;
-
-  /* --- Tooltip --- */
-  --couleur-fond-tooltip       : #eef0f8;
-  --couleur-texte-tooltip      : #0d0f14;
-
-  /* --- Éléments actifs dans le dropdown --- */
-  --couleur-fond-option-active : #1e3a6e;
-  --couleur-texte-option-active: #60a5fa;
-  --couleur-fond-option-hover  : #1e2235;
-}
-
-
-/* ------------------------------------------------------------
-   VARIABLES INVARIANTES
-   Ces valeurs ne changent pas selon le thème.
-   ------------------------------------------------------------ */
+/* ============================================================
+   DESIGN TOKENS — DARK THEME (default)
+   ============================================================ */
 :root {
+  /* Palette */
+  --bg: #080b12;
+  --bg-alt: #0d1117;
+  --surface: #111827;
+  --surface-2: #1a2233;
+  --border: rgba(255, 255, 255, 0.07);
+  --border-hover: rgba(99, 179, 237, 0.35);
 
-  /* --- Typographie --- */
-  --police-principale          : 'Inter', sans-serif;
-  --taille-texte-nav           : 0.875rem;   /* 14px */
-  --taille-texte-dropdown      : 0.875rem;
-  --taille-texte-tooltip       : 0.75rem;    /* 12px */
-  --graisse-nav                : 500;
+  --text-primary: #f0f4ff;
+  --text-secondary: #8899bb;
+  --text-muted: #4a5568;
 
-  /* --- Espacements --- */
-  --hauteur-nav                : 64px;
-  --rayon-bouton-icone         : 8px;
-  --rayon-dropdown             : 12px;
-  --rayon-tooltip              : 6px;
-  --taille-bouton-icone        : 36px;       /* largeur = hauteur du bouton carré */
-  --taille-icone               : 18px;
+  --accent: #4f8ef7;
+  --accent-glow: rgba(79, 142, 247, 0.25);
+  --accent-dark: #1d4ed8;
+  --accent-light: #93c5fd;
 
-  /* --- Transitions --- */
-  --duree-transition-theme     : 300ms;
-  --duree-transition-hover     : 150ms;
-  --duree-transition-dropdown  : 200ms;
-  --courbe-transition          : cubic-bezier(0.4, 0, 0.2, 1);
+  /* Typography */
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  /* Spacing */
+  --nav-h: 72px;
+  --radius: 16px;
+  --radius-sm: 10px;
+  --radius-lg: 24px;
+
+  /* Transitions */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --dur: 220ms;
+}
+
+[data-theme="light"] {
+  --bg: #f8faff;
+  --bg-alt: #f0f4fb;
+  --surface: #ffffff;
+  --surface-2: #eef2ff;
+  --border: rgba(0, 0, 0, 0.08);
+  --border-hover: rgba(79, 142, 247, 0.4);
+
+  --text-primary: #0d1117;
+  --text-secondary: #4a5568;
+  --text-muted: #a0aec0;
+
+  --accent: #2563eb;
+  --accent-glow: rgba(37, 99, 235, 0.15);
+  --accent-dark: #1d4ed8;
+  --accent-light: #3b82f6;
 }
