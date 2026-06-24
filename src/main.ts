@@ -13,13 +13,13 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         </ul>
         <div class="nav-actions">
             <div class="nav-social-buttons">
-                <img src="/public/global-line.svg" alt="Languages" class="nav-icons">
-                <img src="/public/contrast-fill.svg" alt="Theme" class="nav-icons">
+                <img src="./public/global-line.svg" alt="Languages" class="nav-icons">
+                <img src="./public/contrast-fill.svg" alt="Theme" class="nav-icons">
                 <a href="https://github.com/DodgeElfry" target="_blank"><img src="/public/github-line.svg" alt="Github" class="nav-icons"></a>
                 <a href="https://www.linkedin.com/in/dodge-nguia/" target="_blank"><img src="/public/linkedin-fill.svg" alt="LinkedIn" class="nav-icons"></a>
             </div>
             <button class="cv-button">
-                <img class="cv-download-icon" src="/public/download-2-line.svg" alt="Télécharger">
+                <img class="cv-download-icon" src="./public/download-2-line.svg" alt="Télécharger">
                 <p class="text-cv-button">CV</p>
             </button>
         </div>
@@ -34,7 +34,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <a href="#methodology" class="aside-button">Méthodologie</a>
         <a href="#contact" class="aside-button">Contact</a>
         <a href="#" class="aside-button" id="download-portfolio">
-            <img src="/public/download-2-line.svg" alt="Télécharger" class="portfolio-download-icon">
+            <img src="./public/download-2-line.svg" alt="Télécharger" class="portfolio-download-icon">
             <p class="text-portfolio-button">Portfolio</p>
         </a>
     </aside>
@@ -45,18 +45,18 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 <h1 class="big-title">L'innovation par le <strong>Web / Mobile</strong></h1>
                 <p class="text-presentation">Je suis Dodge Elfry, développeur fullstack spécialisé dans la création d'interfaces numériques modernes, performantes et centrées sur l'humain.</p>
                 <div class="button-container">
-                    <a href="/src/pages/projects.html" class="button-blue action-button action-button-projects">
+                    <a href="./src/pages/projects.html" class="button-blue action-button action-button-projects">
                         <p>Voir mes projets</p>
-                        <img src="/public/arrow-right-line-white.svg" alt="Flèche direction" class="action-button-icon">
+                        <img src="./public/arrow-right-line-white.svg" alt="Flèche direction" class="action-button-icon">
                     </a>
                     <a href="#" class="button-white action-button action-button-download">
-                        <img src="/public/download-2-line-black.svg" alt="Télécharger" class="action-button-icon">
+                        <img src="./public/download-2-line-black.svg" alt="Télécharger" class="action-button-icon">
                         <p>Télécharger CV</p>
                     </a>
                 </div>
             </div>
             <div class="picture-container">
-                <img src="/src/assets/img/dodge.jpg" alt="Photo de profil" class="profile-picture">
+                <img src="./src/assets/img/dodge.jpg" alt="Photo de profil" class="profile-picture">
             </div>
         </section>
         <section id="services">
@@ -95,7 +95,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <div class="stack-container">
                 <article class="stack-card">
                     <div class="container-icon">
-                        <img class="domain-icon" src="/public/code-s-slash-line.svg" alt="Frontend">  
+                        <img class="domain-icon" src="./public/code-s-slash-line.svg" alt="Frontend">  
                     </div>
                     <h3 class="domain-name">Frontend</h3>
                     <ul class="technologies">
@@ -107,7 +107,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 </article>
                 <article class="stack-card">
                     <div class="container-icon">
-                        <img class="domain-icon" src="/public/stack-line.svg" alt="Backend">  
+                        <img class="domain-icon" src="./public/stack-line.svg" alt="Backend">  
                     </div>
                     <h3 class="domain-name">Backend</h3>
                     <ul class="technologies">
@@ -119,7 +119,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 </article>
                 <article class="stack-card">
                     <div class="container-icon">
-                        <img class="domain-icon" src="/public/stacked-chart-line.svg" alt="Autre">  
+                        <img class="domain-icon" src="./public/stacked-chart-line.svg" alt="Autre">  
                     </div>
                     <h3 class="domain-name">Autres</h3>
                     <ul class="technologies">
@@ -137,7 +137,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <div class="projects-container">
                 <article class="project-card">
                     <div class="banner-project">
-                        <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
+                        <img src="./public/temporary-picture.jpg" alt="" class="project-picture">
                         <span class="project-status">En cours</span>
                     </div>
                     <h3 class="project-tilte">DUDU</h3>
@@ -153,7 +153,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 </article>
                 <article class="project-card">
                     <div class="banner-project">
-                        <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
+                        <img src="./public/temporary-picture.jpg" alt="" class="project-picture">
                         <span class="project-status">En cours</span>
                     </div>
                     <h3 class="project-tilte">BISSI</h3>
@@ -169,7 +169,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 </article>
                 <article class="project-card">
                     <div class="banner-project">
-                        <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
+                        <img src="./public/temporary-picture.jpg" alt="" class="project-picture">
                         <span class="project-status">En cours</span>
                     </div>
                     <h3 class="project-tilte">OYERI</h3>
@@ -185,7 +185,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 </article>
                 <article class="project-card">
                     <div class="banner-project">
-                        <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
+                        <img src="./public/temporary-picture.jpg" alt="" class="project-picture">
                         <span class="project-status">En cours</span>
                     </div>
                     <h3 class="project-tilte">WURA</h3>
@@ -201,7 +201,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 </article>
                 <article class="project-card">
                     <div class="banner-project">
-                        <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
+                        <img src="./public/temporary-picture.jpg" alt="" class="project-picture">
                         <span class="project-status">En cours</span>
                     </div>
                     <h3 class="project-tilte">G-RH+</h3>
@@ -217,7 +217,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 </article>
                 <article class="project-card">
                     <div class="banner-project">
-                        <img src="/public/temporary-picture.jpg" alt="" class="project-picture">
+                        <img src="./public/temporary-picture.jpg" alt="" class="project-picture">
                         <span class="project-status">En cours</span>
                     </div>
                     <h3 class="project-tilte">G-Compta</h3>
@@ -232,7 +232,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                     </ul>
                 </article>
             </div>
-            <a href="/src/pages/projects.html" class="wiew-more">
+            <a href="./src/pages/projects.html" class="wiew-more">
                         <p>Voir plus de projets</p>
                         <img src="/public/arrow-right-s-line.svg" alt="Flèche direction" class="view-more-icon">
                     </a>
@@ -242,17 +242,17 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <p class="intro-section">Mon approche ne se limite pas à l'écriture de code. Je m'immerge dans vos problématiques métiers pour concevoir des solutions durables. Passionné par l'écosystème JavaScript, j'accorde une importance capitale à l'accécibilité et aux performances</p>
             <div class="methodology-container">
                 <div class="methodology-card">
-                    <img src="/public/lightbulb-ai-line.svg" alt="Innovation" class="methodologie-icon">
+                    <img src="./public/lightbulb-ai-line.svg" alt="Innovation" class="methodologie-icon">
                     <h3 class="methodology-title">Innovation</h3>
                     <p class="methodology-text">En quête permanente des dernières technologies pour créer des solutions modernes et efficaces.</p>
                 </div>
                 <div class="methodology-card">
-                    <img src="/public/file-code-line.svg" alt="Qualité" class="methodologie-icon">
+                    <img src="./public/file-code-line.svg" alt="Qualité" class="methodologie-icon">
                     <h3 class="methodology-title">Code qualitatif</h3>
                     <p class="methodology-text">Le clean code et la clean architechture sont au cœur de mon approche de développement.</p>
                 </div>
                 <div class="methodology-card">
-                    <img src="/public/p2p-line.svg" alt="Collaboration" class="methodologie-icon">
+                    <img src="./public/p2p-line.svg" alt="Collaboration" class="methodologie-icon">
                     <h3 class="methodology-title">Collaboration</h3>
                     <p class="methodology-text">Une communication franche et transparente avec mes clients pour atteindre ensemble les meilleurs résultats.</p>
                 </div>
@@ -289,7 +289,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                     </div>
                     <button type="submit" class="submit-button button-white">
                         <p class="text-button-submit">Envoyer le message</p>
-                        <img src="/public/send-plane-fill.svg" alt="Envoyer" class="icon-button-submit">
+                        <img src="./public/send-plane-fill.svg" alt="Envoyer" class="icon-button-submit">
                     </button>
                 </div>
             </div>
@@ -299,12 +299,12 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <footer>
     <div class="footer-top">
         <div class="logo-area">
-            <img src="/public/logo-style-2.svg" alt="Logo" class="logo footer-logo">
+            <img src="./public/logo-style-2.svg" alt="Logo" class="logo footer-logo">
             <p class="slogan">Disponible pour vos projets</p>
         </div>
         <div class="footer-links">
             <h4 class="navigation-links">Navigation</h4>
-            <a href="/index.html">Accueil</a>
+            <a href="./index.html">Accueil</a>
             <a href="#">Projets</a>
             <a href="#" target="_blank">Blog</a>
         </div>
@@ -312,8 +312,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <h4 class="ressources-links">Ressources</h4>
             <a href="#">Télécharger le CV</a>
             <a href="#">Télécharger le portfolio</a>
-            <a href="#" target="_blank">Github</a>
-            <a href="#" target="_blank">LinkedIn</a>
+            <a href="https://github.com/DodgeElfry" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/in/dodge-nguia/" target="_blank">LinkedIn</a>
         </div>
     </div>
     <p class="copiright">©2026 · Dodge Elfry · Tous droits réservés</p>
