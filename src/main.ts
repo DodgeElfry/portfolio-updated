@@ -1,6 +1,6 @@
-import './style.css'
+import "./style.css";
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
+document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 <header>
     <nav>
         <a href="/index.html">
@@ -297,25 +297,27 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
 </main>
 <footer>
-    <div class="footer-top">
-        <div class="logo-area">
-            <img src="./public/logo-style-2.svg" alt="Logo" class="logo footer-logo">
-            <p class="slogan">Disponible pour vos projets</p>
+    <div class="footer-container">
+        <div class="footer-top">
+            <div class="logo-area">
+                <img src="./public/logo-style-2.svg" alt="Logo" class="logo footer-logo">
+                <p class="slogan">Disponible pour vos projets</p>
+            </div>
+            <div class="footer-links">
+                <h4 class="navigation-links">Navigation</h4>
+                <a href="./index.html">Accueil</a>
+                <a href="#">Projets</a>
+                <a href="#" target="_blank">Blog</a>
+            </div>
+            <div class="footer-links">
+                <h4 class="ressources-links">Ressources</h4>
+                <a href="#">Télécharger le CV</a>
+                <a href="#">Télécharger le portfolio</a>
+                <a href="https://github.com/DodgeElfry" target="_blank">Github</a>
+                <a href="https://www.linkedin.com/in/dodge-nguia/" target="_blank">LinkedIn</a>
+            </div>
         </div>
-        <div class="footer-links">
-            <h4 class="navigation-links">Navigation</h4>
-            <a href="./index.html">Accueil</a>
-            <a href="#">Projets</a>
-            <a href="#" target="_blank">Blog</a>
-        </div>
-        <div class="footer-links">
-            <h4 class="ressources-links">Ressources</h4>
-            <a href="#">Télécharger le CV</a>
-            <a href="#">Télécharger le portfolio</a>
-            <a href="https://github.com/DodgeElfry" target="_blank">Github</a>
-            <a href="https://www.linkedin.com/in/dodge-nguia/" target="_blank">LinkedIn</a>
-        </div>
+        <p class="copiright">©2026 · Dodge Elfry · Tous droits réservés</p>
     </div>
-    <p class="copiright">©2026 · Dodge Elfry · Tous droits réservés</p>
 </footer>
-`
+`;
